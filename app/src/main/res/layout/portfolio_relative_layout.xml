@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtMyprofile">
+    </TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_below="@+id/txtMyprofile"
+        android:layout_margin="20dp"
+        android:id="@+id/img">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:text="Name: Nguyễn Thành Vinh \nBirth: 21/01/2005 \nCity: Hanoi \nPhone:0941xxxxxx"
+        android:layout_below="@id/txtMyprofile"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Description: \nDep trai it noi, abcdefghiklmnopqrstuivsyzx">
+    </TextView>
+</RelativeLayout>
